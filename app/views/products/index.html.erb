@@ -14,6 +14,8 @@
   </header>
 
   <div class="products">
+    <%# render _product partial for each instance in @products %>
+    <%# within partial, the instance can be accessed by simply product %>
     <%= render @products %>
   </div>
 </section>
