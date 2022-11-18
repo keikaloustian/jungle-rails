@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root to: 'products#index'
 
   resources :products, only: [:index, :show]
+  
   resources :categories, only: [:show]
 
   resource :cart, only: [:show] do
@@ -12,6 +13,15 @@ Rails.application.routes.draw do
 
   resources :orders, only: [:create, :show]
 
+  # Routes for user registration
+  resources :users, only: [:new, :create]
+
+  # Routes for login / logout
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+  
+  # Routes for admin dashboard, products, categories
   namespace :admin do
     root to: 'dashboard#show'
     resources :products, except: [:edit, :update, :show]
