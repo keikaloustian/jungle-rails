@@ -13,6 +13,9 @@ Rails.application.routes.draw do
 
   resources :orders, only: [:create, :show]
 
+  # Route to About Us page
+  get '/about' => 'about#index'
+
   # Routes for user registration
   resources :users, only: [:new, :create]
 
