@@ -11,11 +11,17 @@ class User < ApplicationRecord
   validates :email, presence: true
   validates :password, length: { minimum: 8 }
 
-  # method returns an instance of the user if authentication is successful, otherwise false
+  # method returns an instance of the user if authentication is successful, otherwise nil
   def self.authenticate_with_credentials(email, password)
     # Trim and convert email to lower case
     formatted_email = email.strip.downcase
-    self.find_by(email: formatted_email)&.authenticate(password)
+
+    user = User.find_by(email: formatted_email)
+    if user && user.authenticate(password)
+      user
+    else
+      nil
+    end
   end
   
 
