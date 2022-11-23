@@ -5,6 +5,6 @@ describe("Product Details", () => {
 
   it("should click on a product", () => {
     cy.get(".products article").first().click();
-    cy.get(".products-show").should("exist");
+    cy.get(".product-detail").should("exist");
   });
 });
