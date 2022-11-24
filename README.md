@@ -9,7 +9,7 @@ It helped me hone my research and adaptation skills, as well as my ability to st
 2. To do so, one needs to be able to research, learn from the existing code, and ask questions when needed.
 3. In the real world, tasks are given as general descriptions of the issues instead of step-by-step instructions, and it is up to the devs to figure out HOW to accomplish them.
 
-## Main Project Tasks
+## Assignments
 
 * Fix money formatting across different views
 * Implement empty cart message
@@ -25,8 +25,6 @@ It helped me hone my research and adaptation skills, as well as my ability to st
 !["gif of home page and cart"](https://github.com/keikaloustian/jungle-rails/blob/master/docs/homepage-product.gif?raw=true)
 <br><br>
 !["gif of authentication"](https://github.com/keikaloustian/jungle-rails/blob/master/docs/auth.gif?raw=true)
-
-
 
 
 ## Setup
