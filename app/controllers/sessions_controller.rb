@@ -8,6 +8,7 @@ class SessionsController < ApplicationController
       session[:user_id] = user.id
       redirect_to '/'
     else
+      flash[:alert] = "Invalid email and/or password"
       redirect_to '/login'
     end
   end

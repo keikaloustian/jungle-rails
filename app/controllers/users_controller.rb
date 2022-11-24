@@ -1,16 +1,18 @@
 class UsersController < ApplicationController
 
   def new
+    @user = User.new
   end
 
   def create
-    user = User.new(user_params)
-    if user.save
+    @user = User.new(user_params)
+
+    if @user.save
       # if new user saved succesfully, save their id in browser cookie
-      session[:user_id] = user.id
+      session[:user_id] = @user.id
       redirect_to root_path
     else
-      redirect_to new_user_path
+      render :new
     end
   end
 
