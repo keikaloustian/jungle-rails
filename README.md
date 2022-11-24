@@ -22,7 +22,7 @@ It helped me hone my research and adaptation skills, as well as my ability to st
 * Perform model tests with RSpec and integration tests with Cypress 
 
 ## Final Product
-!["gif of home page and cart"](https://github.com/keikaloustian/jungle-rails/blob/master/docs/homepage-product.gif?raw=true)  
+!["gif of home page and cart"](https://github.com/keikaloustian/jungle-rails/blob/master/docs/homepage-product.gif?raw=true)
 !["gif of authentication"](https://github.com/keikaloustian/jungle-rails/blob/master/docs/auth.gif?raw=true)
 
 
