@@ -21,6 +21,10 @@ It helped me hone my research and adaptation skills, as well as my ability to st
 * Implement user registration and login features
 * Perform model tests with RSpec and integration tests with Cypress 
 
+## Final Product
+!["gif of home page and cart"]()
+!["gif of authentication"]()
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
