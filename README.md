@@ -2,7 +2,7 @@
 
 An e-commerce application built with Rails 6.1 to simulate being introduced to a new position and stack.  
 This project challenged me to learn new technologies (Ruby on Rails) quickly and begin working on an existing codebase.  
-It helped me hone my research and adaptation skills, as well as my ability to study the existing code and build on top of it.
+It helped me hone my research and adaptation skills, as well as my ability to study existing code and build on top of it.
 
 ## Key Takeaways
 1. It is possible (and often expected) for devs to contribute to a project before mastering the underlying technologies.
